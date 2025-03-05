@@ -10,6 +10,7 @@
         <DataGrid x:Name="dataframe" AutoGenerateColumns="True" Margin="0,0,0,76" SelectionMode="Single"/>
         <Button x:Name="DeleteBtn" Content="Delete" HorizontalAlignment="Left" Margin="193,386,0,0" VerticalAlignment="Top" Click="DeleteBtn_Click" Width="100" Height="25" Background="#FF0F0E0E" FontSize="16" Foreground="#FFF7F3F3"/>
         <Button x:Name="SignInBtn" Content="Logout" HorizontalAlignment="Left" Margin="482,386,0,0" VerticalAlignment="Top" Click="SignInBtn_Click" Width="97" Height="25" Background="#FF1A1919" FontSize="16" Foreground="#FFF7F3F3"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="25" Margin="636,386,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click"/>
 
     </Grid>
 </Window>

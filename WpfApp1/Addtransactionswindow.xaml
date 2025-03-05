@@ -27,6 +27,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="64,176,0,0" TextWrapping="Wrap" Text="          Category      : " VerticalAlignment="Top" Height="41" Width="166" FontSize="18" TextAlignment="Right"/>
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="64,240,0,0" TextWrapping="Wrap" Text="   Date            :" VerticalAlignment="Top" Width="161" TextAlignment="Right" FontSize="18"/>
         <TextBlock HorizontalAlignment="Left" Height="32" Margin="64,294,0,0" TextWrapping="Wrap" Text="Description  :" VerticalAlignment="Top" Width="161" FontSize="18" TextAlignment="Right"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="40" Margin="620,379,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

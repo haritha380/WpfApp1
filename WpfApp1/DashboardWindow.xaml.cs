@@ -45,5 +45,11 @@ namespace WpfApp1
             new MainWindow().Show();    
             Close();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            new Addtransactionswindow().Show();
+            Close();
+        }
     }
 }

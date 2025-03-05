@@ -26,7 +26,7 @@ namespace WpfApp1
             var user = new User()
             {
                 Email = EmailBox.Text,
-                Password = PasswordBox.Text,
+                Password = PassBox.Password,
                 Username = Usernamebox.Text
             };
 
