@@ -7,7 +7,16 @@
         mc:Ignorable="d"
         Title="DashboardWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="dataframe" AutoGenerateColumns="True" Margin="0,0,0,76" SelectionMode="Single"/>
+        <DataGrid x:Name="dataframe" AutoGenerateColumns="False" Margin="0,0,0,76" SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                <DataGridTextColumn Header="Type" Binding="{Binding type}" Width="100"/>
+                <DataGridTextColumn Header="Amount" Binding="{Binding amount}" Width="100"/>
+                <DataGridTextColumn Header="Category" Binding="{Binding category}" Width="150"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding date}" Width="120"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding description}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
         <Button x:Name="DeleteBtn" Content="Delete" HorizontalAlignment="Left" Margin="132,386,0,0" VerticalAlignment="Top" Click="DeleteBtn_Click" Width="100" Height="25" Background="#FF0F0E0E" FontSize="16" Foreground="#FFF7F3F3"/>
         <Button x:Name="SignInBtn" Content="Logout" HorizontalAlignment="Left" Margin="373,386,0,0" VerticalAlignment="Top" Click="SignInBtn_Click" Width="97" Height="25" Background="#FF1A1919" FontSize="16" Foreground="#FFF7F3F3"/>
         <Button Content="Back" HorizontalAlignment="Left" Height="25" Margin="609,387,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click" FontSize="16" Foreground="#FFFAF9F9" Background="#FF111010"/>
