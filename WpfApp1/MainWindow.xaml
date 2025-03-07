@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="343" Width="350">
+        Title="MainWindow" Height="343" Width="350" Background="LightSteelBlue">
     <Grid Margin="0,0,0,-6">
         <TextBox x:Name="EmailBox" HorizontalAlignment="Left" Margin="148,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
         <Button Content="Sign-up" HorizontalAlignment="Left" Margin="55,179,0,0" VerticalAlignment="Top" Click="Button_Click" Width="120" Foreground="#FFFCF8F8" Background="#FF1A1818"/>

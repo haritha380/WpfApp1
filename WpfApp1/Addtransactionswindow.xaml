@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Initialized="Window_Initialized_1"
-        Title="Addtransactionswindow" Height="466" Width="800">
+        Title="Addtransactionswindow" Height="466" Width="800" Background="LightSteelBlue">
     <Grid Height="450" VerticalAlignment="Top">
         <Grid.Background>
             <ImageBrush/>

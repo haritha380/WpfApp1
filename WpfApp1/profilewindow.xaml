@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="profilewindow" Height="450" Width="800">
+        Title="profilewindow" Height="450" Width="800" Background="LightSteelBlue">
     <Grid>
         <TextBox x:Name="email" HorizontalAlignment="Left" Height="24" Margin="339,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281"/>
         <TextBox x:Name="newpassword" HorizontalAlignment="Left" Height="25" Margin="339,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281" TextChanged="newpassword_TextChanged"/>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="DashboardWindow" Height="450" Width="800">
+        Title="DashboardWindow" Height="450" Width="800" Background="LightSteelBlue">
     <Grid>
         <DataGrid x:Name="dataframe" AutoGenerateColumns="False" Margin="0,0,0,76" SelectionMode="Single">
             <DataGrid.Columns>
