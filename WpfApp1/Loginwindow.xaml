@@ -7,12 +7,15 @@
         mc:Ignorable="d"
         Title="Loginwindow" Height="450" Width="800"  Background="LightSteelBlue">
     <Grid x:Name="email1">
+        <Grid.Background>
+            <ImageBrush ImageSource="/istockphoto-1368169112-612x612.jpg" Opacity="0.35"/>
+        </Grid.Background>
         <Button Content="Login" HorizontalAlignment="Center" Height="40" Margin="0,303,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click" FontSize="18" Background="#FF2B2727" Foreground="#FFFAF5F5"/>
         <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="261" Height="29" Margin="345,160,0,0"/>
         <TextBox x:Name="EmailBox" HorizontalAlignment="Left" Margin="345,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="261" Height="28"/>
         <TextBlock HorizontalAlignment="Left" Height="40" Margin="167,30,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="434" TextAlignment="Center" FontSize="30" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Height="28" Margin="167,111,0,0" TextWrapping="Wrap" Text="E-mail          :" VerticalAlignment="Top" Width="173" TextAlignment="Right" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Left" Margin="167,160,0,0" TextWrapping="Wrap" Text="Password     :" VerticalAlignment="Top" Height="29" Width="173" TextAlignment="Right" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="167,111,0,0" TextWrapping="Wrap" Text="E-mail          :" VerticalAlignment="Top" Width="173" TextAlignment="Right" FontSize="20" FontWeight="ExtraBold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="167,160,0,0" TextWrapping="Wrap" Text="Password     :" VerticalAlignment="Top" Height="29" Width="173" TextAlignment="Right" FontSize="20" FontWeight="ExtraBold"/>
         
     </Grid>
 </Window>

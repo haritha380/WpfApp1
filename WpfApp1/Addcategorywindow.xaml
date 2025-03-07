@@ -5,19 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Addcategorywindow" Height="450" Width="800" Background="LightSteelBlue">
+        Title="Addcategorywindow" Height="450" Width="800" Background="LightSteelBlue" >
+
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/istockphoto-1368169112-612x612.jpg" Opacity="0.35" TileMode="None"/>
+        </Grid.Background>
         <TextBox x:Name="name" HorizontalAlignment="Left" Height="29" Margin="384,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" TextChanged="name_TextChanged"/>
         <Button Content="Add Category" HorizontalAlignment="Left" Height="39" Margin="269,249,0,0" VerticalAlignment="Top" Width="121" Click="Button_Click" FontSize="16" Background="#FF0F0F0F" Foreground="#FFF9F5F5"/>
-        <ComboBox x:Name="type" HorizontalAlignment="Left" Margin="383,94,0,0" VerticalAlignment="Top" Width="289" Height="34">
+        <ComboBox x:Name="type" HorizontalAlignment="Left" Margin="384,95,0,0" VerticalAlignment="Top" Width="289" Height="34">
             <ComboBoxItem Content="Income"/>
             <ComboBoxItem Content="Expense"/>
 
         </ComboBox>
         <Button x:Name="Addtransactionbutton" Content="Add Transaction" HorizontalAlignment="Left" Height="39" Margin="461,249,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click_1" FontSize="16" Background="#FF111010" Foreground="#FFFCFBFB"/>
-        <TextBlock HorizontalAlignment="Left" Height="44" Margin="269,10,0,0" TextWrapping="Wrap" Text="Add Category" VerticalAlignment="Top" Width="315" FontSize="30" TextAlignment="Center" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Height="34" Margin="243,94,0,0" TextWrapping="Wrap" Text="Type                :" VerticalAlignment="Top" Width="135" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Left" Margin="243,148,0,0" TextWrapping="Wrap" Text="Name              :" VerticalAlignment="Top" Height="29" Width="135" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="44" Margin="269,10,0,0" TextWrapping="Wrap" Text="Add Category" VerticalAlignment="Top" Width="315" FontSize="30" TextAlignment="Center" FontWeight="Bold" Foreground="#FF191717"/>
+        <TextBlock HorizontalAlignment="Left" Height="34" Margin="231,94,0,0" TextWrapping="Wrap" Text="Type                :" VerticalAlignment="Top" Width="147" FontSize="20" Foreground="#FF0F0F0F" FontWeight="ExtraBold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="231,148,0,0" TextWrapping="Wrap" Text="Name              :" VerticalAlignment="Top" Height="29" Width="147" FontSize="20" Foreground="#FF121111" FontWeight="ExtraBold"/>
 
     </Grid>
 </Window>

@@ -9,7 +9,7 @@
         Title="Addtransactionswindow" Height="466" Width="800" Background="LightSteelBlue">
     <Grid Height="450" VerticalAlignment="Top">
         <Grid.Background>
-            <ImageBrush/>
+            <ImageBrush ImageSource="/istockphoto-1368169112-612x612.jpg" Opacity="0.35"/>
         </Grid.Background>
         <Button x:Name="DashboardButton" Content="Dashboard" HorizontalAlignment="Left" Margin="64,379,0,0" VerticalAlignment="Top" Click="Button_Click" Width="142" Height="40" FontSize="18" Foreground="#FFFCF8F8" Background="#FF0C0C0C"/>
         <ComboBox x:Name="TransactionTypeCombo" HorizontalAlignment="Left" Height="40" Margin="230,77,0,0" VerticalAlignment="Top" Width="334" SelectionChanged="TransactionTypeCombo_SelectionChanged">
@@ -22,11 +22,11 @@
         <TextBox x:Name="AmountBox" HorizontalAlignment="Left" Margin="230,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" Height="26"/>
         <TextBox x:Name="DescriptionBox" HorizontalAlignment="Left" Margin="230,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" Height="63"/>
         <TextBlock HorizontalAlignment="Left" Height="33" Margin="230,10,0,0" TextWrapping="Wrap" Text="Add Transaction" VerticalAlignment="Top" FontSize="30" TextAlignment="Center" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Height="40" Margin="64,77,0,0" TextWrapping="Wrap" Text="Type            :" VerticalAlignment="Top" Width="161" FontSize="19" TextAlignment="Right"/>
-        <TextBlock HorizontalAlignment="Left" Margin="64,130,0,0" TextWrapping="Wrap" Text="Amount       :" VerticalAlignment="Top" Height="26" Width="161" TextAlignment="Right" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Margin="64,176,0,0" TextWrapping="Wrap" Text="          Category      : " VerticalAlignment="Top" Height="41" Width="166" FontSize="18" TextAlignment="Right"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="64,240,0,0" TextWrapping="Wrap" Text="   Date            :" VerticalAlignment="Top" Width="161" TextAlignment="Right" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Height="32" Margin="64,294,0,0" TextWrapping="Wrap" Text="Description  :" VerticalAlignment="Top" Width="161" FontSize="18" TextAlignment="Right"/>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="64,77,0,0" TextWrapping="Wrap" Text="Type                   :" VerticalAlignment="Top" Width="161" FontSize="19" FontWeight="ExtraBold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="64,130,0,0" TextWrapping="Wrap" Text="Amount               :" VerticalAlignment="Top" Height="26" Width="161" FontSize="18" FontWeight="ExtraBold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="64,176,0,0" TextWrapping="Wrap" Text="Category             : " VerticalAlignment="Top" Height="41" Width="166" FontSize="18" FontWeight="ExtraBold"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="64,240,0,0" TextWrapping="Wrap" Text="Date                     :" VerticalAlignment="Top" Width="161" FontSize="18" FontWeight="ExtraBold"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="64,294,0,0" TextWrapping="Wrap" Text="Description         :" VerticalAlignment="Top" Width="161" FontSize="18" FontWeight="ExtraBold"/>
         <Button Content="Back" HorizontalAlignment="Left" Height="40" Margin="620,379,0,0" VerticalAlignment="Top" Width="122" Click="Button_Click_1" FontSize="18" Background="#FF121212" Foreground="#FFFAF6F6"/>
 
     </Grid>
